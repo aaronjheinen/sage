@@ -8,33 +8,39 @@
   "private": true,
   "dependencies": {
     "modernizr": "2.8.2",
-    "bootstrap-sass-official": "3.3.4"
+    "materialize": "~0.96.1"
   },
   "overrides": {
     "modernizr": {
       "main": "./modernizr.js"
     },
-    "bootstrap-sass-official": {
+    "materialize": {
       "main": [
-        "./assets/stylesheets/_bootstrap.scss",
-        "./assets/javascripts/bootstrap/transition.js",
-        "./assets/javascripts/bootstrap/alert.js",
-        "./assets/javascripts/bootstrap/button.js",
-        "./assets/javascripts/bootstrap/carousel.js",
-        "./assets/javascripts/bootstrap/collapse.js",
-        "./assets/javascripts/bootstrap/dropdown.js",
-        "./assets/javascripts/bootstrap/modal.js",
-        "./assets/javascripts/bootstrap/tooltip.js",
-        "./assets/javascripts/bootstrap/popover.js",
-        "./assets/javascripts/bootstrap/scrollspy.js",
-        "./assets/javascripts/bootstrap/tab.js",
-        "./assets/javascripts/bootstrap/affix.js",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+        "./sass/materialize.scss",
+        "./dist/js/materialize.js",
+        "./font/material-design-icons/MaterialDesign-Icons.eot",
+        "./font/material-design-icons/MaterialDesign-Icons.svg",
+        "./font/material-design-icons/MaterialDesign-Icons.ttf",
+        "./font/material-design-icons/MaterialDesign-Icons.woff",
+        "./font/material-design-icons/MaterialDesign-Icons.woff2",
+        "./font/roboto/Roboto-Bold.ttf",
+        "./font/roboto/Roboto-Bold.woff",
+        "./font/roboto/Roboto-Bold.woff2",
+        "./font/roboto/Roboto-Light.ttf",
+        "./font/roboto/Roboto-Light.woff",
+        "./font/roboto/Roboto-Light.woff2",
+        "./font/roboto/Roboto-Medium.ttf",
+        "./font/roboto/Roboto-Medium.woff",
+        "./font/roboto/Roboto-Medium.woff2",
+        "./font/roboto/Roboto-Regular.ttf",
+        "./font/roboto/Roboto-Regular.woff",
+        "./font/roboto/Roboto-Regular.woff2",
+        "./font/roboto/Roboto-Thin.ttf",
+        "./font/roboto/Roboto-Thin.woff",
+        "./font/roboto/Roboto-Thin.woff2"
       ]
     }
+  },
+  "devDependencies": {
   }
 }

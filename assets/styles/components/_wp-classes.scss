@@ -15,7 +15,7 @@
 .alignright {
   margin-bottom: ($line-height-computed / 2);
 }
-@media (min-width: $screen-sm-min) {
+@media (min-width: $small-screen-up) {
   // Only float if not on an extra small device
   .alignleft {
     float: left;
@@ -32,7 +32,7 @@
   @extend .thumbnail;
 }
 .wp-caption-text {
-  padding: $thumbnail-caption-padding;
+  padding: 10px;
 }
 
 // Text meant only for screen readers
